@@ -1,7 +1,5 @@
 FROM ubuntu:xenial AS build
 
-RUN echo $parse_version
-
 RUN apt-get update
 RUN apt-get install -y git
 
